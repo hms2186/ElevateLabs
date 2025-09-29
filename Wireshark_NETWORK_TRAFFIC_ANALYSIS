@@ -1,0 +1,67 @@
+Network Traffic Analysis Summary
+
+Based on my analysis of the wireshark_capture.pcapng file, here are the key findings:
+
+Capture Overview
+•  Duration: 60.6 seconds of network activity
+•  Total Packets: 211,470 packets
+•  Total Data: 224.3 MB (224,294,570 bytes)
+•  Average Rate: ~3,490 packets/second
+
+Top Communication Patterns
+
+Primary Source Device: 192.168.1.117 (local device - likely your machine)
+
+Major Traffic Flows:
+1. 103.25.152.63: 185,337 packets (198 MB) - Highest volume traffic
+2. 202.12.82.10: 13,035 packets (14 MB) 
+3. 148.113.2.148: 5,680 packets (6 MB)
+4. 148.113.1.222: 1,815 packets (1.5 MB)
+
+Protocol Distribution
+•  TCP: 207,279 packets (221 MB) - 98% of traffic
+•  TLS/HTTPS: 117,499 packets (170 MB) - Dominant encrypted traffic
+•  HTTP: Only 6 packets (minimal unencrypted web traffic)
+•  UDP: 4,132 packets (2.9 MB)
+•  DNS queries: 118 packets
+•  QUIC protocol: 1,275 packets
+•  mDNS (Multicast DNS): 11 packets
+•  IPv6: 32 packets (minimal IPv6 usage)
+•  ARP: 27 packets
+
+Key Services and Domains Identified
+
+DNS Queries Revealed:
+•  Google services: clients.l.google.com, encrypted-tbn0.gstatic.com
+•  Apple services: smoot-api-safari-aaps1b.v.aaplimg.com, gateway.icloud.com
+•  Advertising: www.googleadservices.com, pagead2.googlesyndication.com
+•  Network testing: ping-test.net
+
+TLS Connections (SNI Analysis):
+•  Apple iCloud: gateway.icloud.com
+•  Google services: clients1.google.com
+•  Apple APIs: api-safari-aaps1b.smoot.apple.com
+•  Google Images: encrypted-tbn0.gstatic.com
+•  Network infrastructure: Multiple .fireinfra.net domains
+
+Security Observations
+
+Positive Security Indicators:
+•  98%+ of web traffic is encrypted (TLS/HTTPS)
+•  Only 3 HTTP requests found (to certificate repository)
+•  Strong preference for encrypted protocols
+
+Notable Patterns:
+•  Heavy use of CDN and cloud services
+•  Significant Apple ecosystem traffic (iCloud, Safari services)
+•  Google advertising and analytics traffic
+•  Some network testing/probing activity
+
+Network Behavior Analysis
+•  This appears to be normal web browsing and application activity
+•  Mix of streaming/download (large data volumes) and interactive traffic
+•  Active use of Apple services and Google ecosystem
+•  No obvious signs of malicious activity
+•  Standard residential network patterns with local router (192.168.1.254)
+
+The capture shows typical modern internet usage with heavy emphasis on encrypted communications, cloud services, and content delivery networks.
