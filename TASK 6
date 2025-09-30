@@ -1,0 +1,78 @@
+**Task 6: Create a Strong Password and Evaluate Its Strength**
+
+**Objective:**
+The goal of this task is to understand the factors that make a password strong and to practically test different passwords using an online password strength checker. By doing so, we can learn how complexity, length, and character variety affect password security.
+
+---
+
+### Step 1: Password Creation
+
+I created the following sample passwords with varying complexity:
+
+1. **Password1**
+2. **hello123**
+3. **H3llo@2025**
+4. **$ecureP@ss!98**
+5. **Xy!7rK$1oPqWzL#2025**
+
+---
+
+### Step 2: Testing with Password Strength Checker
+
+Tool used: [passwordmeter.com](https://passwordmeter.com)
+
+**Results:**
+
+1. **Password1**
+
+* Score: 26%
+* Feedback: Too short, predictable pattern, common word used.
+
+2. **hello123**
+
+* Score: 34%
+* Feedback: Contains only lowercase letters and numbers; easy to guess; dictionary word detected.
+
+3. **H3llo@2025**
+
+* Score: 64%
+* Feedback: Good mix of uppercase, lowercase, numbers, and a symbol; length could be longer.
+
+4. **$ecureP@ss!98**
+
+* Score: 82%
+* Feedback: Strong password; includes varied characters; length is decent.
+
+5. **Xy!7rK$1oPqWzL#2025**
+
+* Score: 100%
+* Feedback: Very strong password; long length, includes uppercase, lowercase, numbers, and multiple symbols; not a dictionary word.
+
+---
+
+### Step 3: Best Practices Learned
+
+From the evaluation, I learned that:
+
+1. Longer passwords are much harder to crack.
+2. Using a mix of uppercase, lowercase, numbers, and symbols makes passwords stronger.
+3. Avoid dictionary words, names, or simple patterns like “123” or “abcd.”
+4. Randomness increases security; predictable replacements (like “P@ssw0rd”) are still weak.
+5. Passwords should ideally be at least 12–16 characters.
+
+---
+
+### Step 4: Common Password Attacks (Research)
+
+* **Brute Force Attack:** Tries all possible combinations of characters until the correct one is found. The longer and more complex the password, the harder it is to crack.
+* **Dictionary Attack:** Uses lists of common words and variations. If a password contains simple words (like “hello” or “password”), it is vulnerable.
+* **Phishing / Social Engineering:** Instead of guessing, attackers trick users into revealing passwords.
+
+---
+
+### Step 5: Summary
+
+This exercise showed how password complexity directly impacts security. A simple password like “Password1” is weak and can be cracked easily, while a long and random password like “Xy!7rK$1oPqWzL#2025” provides strong protection against brute force and dictionary attacks.
+
+**Final Takeaway:**
+A strong password should be long, random, and include a combination of uppercase letters, lowercase letters, numbers, and symbols. Using passphrases or password managers can also help maintain strong, unique passwords for each account.
