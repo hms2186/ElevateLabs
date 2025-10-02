@@ -1,0 +1,67 @@
+**Task 7: Identify and Remove Suspicious Browser Extensions**
+
+**Objective:**
+The aim of this task is to learn how to spot potentially harmful browser extensions and remove them in order to improve both security and browser performance.
+
+---
+
+### Step 1: Opening Extensions Manager
+
+* I opened the **Extensions/Add-ons Manager** in my browser (Google Chrome).
+* This section lists all installed extensions with their permissions.
+
+---
+
+### Step 2: Reviewing Installed Extensions
+
+* I carefully reviewed the list of installed extensions.
+* I checked:
+
+  1. Extension names and developers.
+  2. Permissions requested (like access to all websites, browsing history, etc.).
+  3. User reviews and ratings online (if available).
+  4. Whether I actually use the extension or if it was installed without my knowledge.
+
+---
+
+### Step 3: Identifying Suspicious or Unnecessary Extensions
+
+* **Example of Suspicious Extension:**
+
+  * An extension I didn’t remember installing that requested permission to read browsing history.
+* **Example of Unnecessary Extension:**
+
+  * An old extension I no longer use for file downloads.
+
+---
+
+### Step 4: Removal Process
+
+* I clicked **Remove/Delete** on the identified extensions.
+* Restarted the browser to confirm they were removed successfully.
+
+---
+
+### Step 5: Observations After Removal
+
+* Browser startup felt faster.
+* Less clutter in the toolbar.
+* Reduced risk of background data tracking by unwanted extensions.
+
+---
+
+### Step 6: Research – Risks of Malicious Extensions
+
+* **Data Theft:** Extensions with high permissions can steal browsing data, passwords, or cookies.
+* **Ad Injection:** Malicious add-ons can insert ads or redirect traffic to unsafe websites.
+* **Spyware/Malware:** Some extensions secretly collect user behavior and send it to attackers.
+* **System Performance Issues:** Unnecessary background processes may slow down browsing.
+
+---
+
+### Step 7: Summary
+
+By reviewing and removing suspicious browser extensions, I improved both browser performance and security. Malicious extensions can cause serious harm by stealing data or slowing down the system. Regularly checking installed extensions is an important security practice.
+
+**Final Takeaway:**
+Only keep extensions that are trusted, necessary, and from official sources. Avoid granting unnecessary permissions, and review installed add-ons regularly.
