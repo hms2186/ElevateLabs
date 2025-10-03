@@ -1,0 +1,79 @@
+**Task 8 – VPN Setup and Privacy Exploration**
+
+---
+
+### 1. Introduction
+
+A Virtual Private Network (VPN) is a tool that provides secure communication over the internet by encrypting traffic and masking the user’s real IP address. I wanted to understand its importance, so I carried out this hands-on task to explore how a VPN protects privacy and enables secure browsing.
+
+---
+
+### 2. VPN Setup Steps
+
+I chose **ProtonVPN (Free Tier)** for this task. I signed up on the ProtonVPN official website, downloaded the client, and installed it on my system. After logging in, I connected to the nearest available server (India/Singapore). The client displayed **“Connected”** status, which confirmed that I had successfully set up the VPN.
+
+*(Screenshot of VPN connection status to be attached here)*
+
+---
+
+### 3. IP Verification
+
+Before connecting to the VPN, I checked my IP address on **whatismyipaddress.com**, and it showed my real location. After connecting to ProtonVPN, I checked again, and the IP address had changed to the VPN server’s location. This confirmed that my internet traffic was being routed through the VPN.
+
+*(Screenshot of IP before and after connection to be attached here)*
+
+---
+
+### 4. Browsing Test
+
+To test the connection, I opened websites such as **YouTube** and **Gmail** while connected to the VPN. I was able to browse normally, and I confirmed that my session was encrypted and secure.
+
+---
+
+### 5. Speed Comparison
+
+I also compared browsing performance:
+
+* **Without VPN:** My browsing speed was normal.
+* **With VPN:** I noticed a slight reduction in speed because of encryption and rerouting, but overall, the connection was still smooth and usable.
+
+---
+
+### 6. Research Findings
+
+From my research, I found that VPNs generally use **AES-256 encryption**, which is one of the most secure standards. ProtonVPN also supports tunneling protocols like **OpenVPN** and **WireGuard**, which balance speed and security. By masking my IP address and encrypting my traffic, the VPN ensured my privacy and protected me from potential threats on insecure networks.
+
+---
+
+### 7. Benefits of VPNs
+
+Based on my experience and findings, I identified the following benefits:
+
+* I was able to mask my real IP address and improve privacy.
+* My traffic was encrypted, which means hackers couldn’t access my data.
+* I felt more secure browsing on public WiFi.
+* I could potentially bypass geo-restrictions and censorship.
+
+---
+
+### 8. Limitations of VPNs
+
+I also noticed some limitations:
+
+* Free VPNs, like the one I used, often restrict data usage, servers, or speed.
+* Users must trust the VPN provider not to log or misuse their data.
+* VPNs don’t protect against phishing or malware.
+* I experienced a slight reduction in browsing speed.
+
+---
+
+### 9. Conclusion
+
+This exercise gave me practical experience with VPNs. I was able to successfully set up ProtonVPN, verify that my IP address had changed, and browse securely. From this, I understood how VPNs protect online privacy and secure communication. While I found them very useful, I also realized that they come with trade-offs such as slower speeds and limited free features.
+
+---
+
+**Deliverables Attached:**
+
+1. My VPN connection status screenshot.
+2. My IP address before and after connection screenshots.
